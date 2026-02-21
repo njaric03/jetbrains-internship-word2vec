@@ -1,0 +1,15 @@
+[project]
+name = "jetbrainsinternship"
+version = "0.1.0"
+description = "Word2Vec Skip-Gram with Negative Sampling - pure NumPy implementation"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "numpy",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
